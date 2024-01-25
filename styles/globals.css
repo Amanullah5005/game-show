@@ -1,1 +1,362 @@
 /* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+/* Donot use this file for styles, use module css files for ur games */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+:root {
+  background-color: var(--cl-1--);
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+    font-family: "Baloo 2", sans-serif;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+
+  --cl-1--: #faf8f8;
+  --cl-2--: #ff3998;
+  --cl-3--: #ffffff;
+  --cl-4--: #ff8139;
+  --cl-5--: #000000;
+  --cl-6--: #20202b;
+  --cl-8--: #3a3a3a;
+
+  /* Dark Theme Variables */
+  /* --cl-1--: #555555;
+  --cl-2--: #67ff39;
+  --cl-3--: #111111;
+  --cl-4--: #ff8139;
+  --cl-5--: #eeeeee;
+  --cl-6--: #ffffff;
+  --cl-7--: #ff3939;
+  --cl-8--: #4e4e4e; */
+}
+.row {
+  display: flex;
+  font-family: "Baloo 2", sans-serif;
+}
+.column {
+  display: grid;
+  font-family: "Baloo 2", sans-serif;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.button {
+  border: none;
+  background: none;
+  color: var(--cl-3--);
+}
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+/* Button styles start */
+.Btn1 {
+  margin-top: 15px;
+  width: 100%; /* Make Close button full width */
+  padding: 8px 10px; /* Adjust padding */
+  background-color: var(--cl-1--);
+  color: var(--cl-1--);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Slight shadow */
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.Btn1:hover {
+  margin-top: 20px;
+  width: 100%; /* Make Close button full width */
+  padding: 10px 15px; /* Adjust padding */
+  background-color: var(--cl-4--);
+  color: var(--cl-5--);
+  border-radius: 10px;
+  font-size: 25px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4); /* Slight shadow */
+  font-weight: 800;
+}
+.Btn1 a{
+  font-family: "Baloo 2", sans-serif;
+  color: var(--cl-6--);
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .Btn1 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Btn1 {
+    font-size: 10px;
+  }
+}
+/* Button styles start */
+.Btn2 {
+  margin-top: 15px;
+  width: 100%; /* Make Close button full width */
+  padding: 8px 10px; /* Adjust padding */
+  background-color: var(--cl-1--);
+  color: var(--cl-5--);
+  border: none;
+  border-radius: 8px;
+  border: 3px solid var(--cl-2--);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Slight shadow */
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.Btn2:hover {
+  margin-top: 20px;
+  width: 100%; /* Make Close button full width */
+  padding: 10px 15px; /* Adjust padding */
+  background-color: var(--cl-2--);
+  color: var(--cl-5--);
+  border-radius: 10px;
+  font-size: 25px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4); /* Slight shadow */
+  font-weight: 800;
+}
+.Btn2 a{
+  font-family: "Baloo 2", sans-serif;
+  color: var(--cl-6--);
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .Btn2 {
+    font-size: 14px;
+  }
+  .Btn2:hover {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Btn2 {
+    font-size: 10px;
+  }
+  .Btn2:hover {
+    font-size: 10px;
+  }
+}
+
+/* Button styles End */
+
+/* h1, p styles start */
+.TextParentDiv {
+  font-family: "Baloo 2", sans-serif;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2em;
+  flex-wrap: wrap;
+  padding: 0.5em 0;
+}
+.TextParentDiv h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  /* font-size: clamp(20px, 5vw, 55px); */
+  color: var(--cl-3--);
+  margin: 0px;
+  margin-bottom: 5px; /* you can change this color as per your requirement */
+}
+.TextParentDiv p {
+  font-size: 18px;
+  color: var(--cl-1--);
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 800px) {
+  .TextParentDiv h1 {
+    font-size: 40px;
+  }
+  .TextParentDiv p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .TextParentDiv h1 {
+    font-size: 25px;
+  }
+  .TextParentDiv p {
+    font-size: 10px;
+  }
+}
+
+/* h1 styles End */
+
+
+
+
+/* Hero Section Styles */
+
+
+
+/* with text on right  */
+.Hero {
+  font-family: "Baloo 2", sans-serif;
+  align-items: center;
+  padding: 2em 0;
+  min-height: calc(100vh - 88px);
+}
+.Hero {
+  border-width: 4px 0px;
+  border-style: solid;
+  border-color: var(--cl-5--);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.Hero div {
+  max-width: 500px;
+}
+.Hero h6 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--cl-2--);
+  margin: 10px 0;
+}
+.Hero h1 {
+  font-weight: 900;
+  font-size: clamp(60px, 9vw, 100px);
+  color: var(--cl-3--);
+  line-height: 01.2;
+  margin: 20px 0;
+}
+.Hero p {
+  font-size: 20px;
+  color: var(--cl-1--);
+  padding: 0.8em 0;
+}
+.Hero a {
+  font-size: 20px;
+  color: var(--cl-3--);
+  border: 4px solid var(--cl-4--);
+  padding: 0.3em 1em;
+  border-radius: 80px;
+  text-decoration: none;
+  transition: 0.21s ease-in-out;
+}
+.Hero a:hover {
+  border-color: var(--cl-7--);
+  background-color: var(--cl-3--);
+  color: var(--cl-6--);
+}
+#mainCard {
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px var(--cl-8--);
+}
+/* with text on right END */
+/* with text on Left  */
+.Hero2 {
+  font-family: "Baloo 2", sans-serif;
+  align-items: center;
+  padding: 2em 0;
+  min-height: calc(100vh - 88px);
+}
+.Hero2 {
+  border-width: 4px 0px;
+  border-style: solid;
+  border-color: var(--cl-5--);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Hero2 div {
+  max-width: 500px;
+}
+.Hero2 h6 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--cl-2--);
+  margin: 10px 0;
+}
+.Hero2 h1 {
+  font-weight: 900;
+  font-size: clamp(60px, 9vw, 100px);
+  color: var(--cl-3--);
+  line-height: 01.2;
+  margin: 20px 0;
+}
+.Hero2 p {
+  font-size: 20px;
+  color: var(--cl-1--);
+  padding: 0.8em 0;
+}
+.Hero2 a {
+  font-size: 20px;
+  color: var(--cl-3--);
+  border: 4px solid var(--cl-4--);
+  padding: 0.3em 1em;
+  border-radius: 80px;
+  text-decoration: none;
+  transition: 0.21s ease-in-out;
+}
+.Hero2 a:hover {
+  border-color: var(--cl-7--);
+  background-color: var(--cl-3--);
+  color: var(--cl-6--);
+}
+#mainCard {
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px var(--cl-8--);
+}
+/* with text on Left END */
+/* Hero Section End */
+
